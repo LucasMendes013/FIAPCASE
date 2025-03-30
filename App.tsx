@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Animated, View, StyleSheet } from 'react-native';
+import { Animated, StyleSheet, StatusBar, useColorScheme } from 'react-native';
 import { ThemeProvider } from 'styled-components/native';
-import { StatusBar } from 'react-native';
 import { lightTheme, darkTheme } from './src/themes';
 import AppNavigation from './src/navigation/AppNavigation';
 import SplashScreen from './src/screens/SplashScreen';
@@ -9,7 +8,7 @@ import { Provider } from 'react-redux';
 import store from './src/redux/store';
 
 function App(): React.JSX.Element {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const colorScheme = useColorScheme(); 
   const [isLoading, setIsLoading] = useState(true);
 
   const fadeAnim = useRef(new Animated.Value(1)).current;
@@ -30,7 +29,7 @@ function App(): React.JSX.Element {
 
   return (
     <Provider store={store}>
-      <ThemeProvider theme={isDarkMode ? darkTheme : lightTheme}>
+      <ThemeProvider theme={colorScheme === 'dark' ? darkTheme : lightTheme}>
         <StatusBar translucent backgroundColor="transparent" />
 
         <AppNavigation />

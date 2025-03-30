@@ -80,8 +80,16 @@ const AppNavigation = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Login" screenOptions={{ headerShown: false }}>
-        <Stack.Screen name="Login" component={Login} />
-        <Stack.Screen name="Main" component={TabNavigator} />
+        <Stack.Screen
+          name="Login"
+          component={Login}
+          options={{ animation: 'none' }}
+        />
+        <Stack.Screen
+          name="Main"
+          component={TabNavigator}
+          options={{ animation: 'none' }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
