@@ -24,6 +24,8 @@ export const CloseButton = styled.TouchableOpacity`
   position: absolute;
   top: 10px;
   right: 10px;
+  flex-direction: row;
+  align-items: center;
   margin: 40px 10px 0px 0px;
 `;
 
@@ -31,6 +33,7 @@ export const CloseButtonText = styled.Text`
   font-size: ${({ theme }) => theme.sizes.s16};
   color: ${({ theme }) => theme.colors.button};
   font-weight: bold;
+  margin: 0px 10px;
 `;
 
 export const ModalTitle = styled.Text`

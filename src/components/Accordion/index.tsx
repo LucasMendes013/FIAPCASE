@@ -123,7 +123,7 @@ const DropdownMenu = ({
                     <Styled.SelectedOptionItem>
                         <Styled.WrapperImage>
                             <BackgroundImage />
-                            <Styled.Label>Sem Aulas neste dia</Styled.Label>
+                            <Styled.Label>Sem aulas neste dia</Styled.Label>
                         </Styled.WrapperImage>
                     </Styled.SelectedOptionItem>
                 </Styled.FlatListContainer>

@@ -45,8 +45,6 @@ const Aulas = () => {
     checkAuthentication();
   }, [dispatch]);
 
-  console.log('dados aq', isLoggedIn, user, users);
-
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
   };
@@ -132,7 +130,7 @@ const Aulas = () => {
             renderItem={() => (
               <Styled.WrapperImage>
                 <BackgroundImage />
-                <Styled.Label>Sem Aulas neste dia</Styled.Label>
+                <Styled.Label>Sem aulas neste dia</Styled.Label>
               </Styled.WrapperImage>
             )}
             keyExtractor={(item) => item.key}

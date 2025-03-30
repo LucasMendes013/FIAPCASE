@@ -83,7 +83,7 @@ const DropdownBulletin = ({
     const renderItem = ({ item, index }) => (
         <Styled.AccordionContainer>
             <Styled.ToggleButton onPress={() => toggleDropdownTrimestre(index)}>
-                <Styled.AccordionTitle>{item.trimestre} TRIMESTRE</Styled.AccordionTitle>
+                <Styled.AccordionTitle>{item?.trimestre} TRIMESTRE</Styled.AccordionTitle>
                 {dropdownStates[index] ? <UpDropdownIcon /> : <DownDropdownIcon />}
             </Styled.ToggleButton>
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Modal } from 'react-native';
 import * as Styled from './styles';
+import CloseIcon from '../../assets/svg/icons/CloseIcon';
 
 
 interface ProfileModalProps {
@@ -35,6 +36,7 @@ const ProfileModal = ({
         <Styled.ModalContent>
           <Styled.CloseButton onPress={onClose}>
             <Styled.CloseButtonText>FECHAR</Styled.CloseButtonText>
+            <CloseIcon width={15} height={15}/>
           </Styled.CloseButton>
 
           <Styled.ModalTitle>Escolha o perfil que você quer visualizar</Styled.ModalTitle>
