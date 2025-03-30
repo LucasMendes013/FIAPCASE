@@ -1,79 +1,47 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+ReadMe 🚀
+E aí, pessoal! 👋 Meu nome é Lucas Mendes, tenho 23 anos, sou desenvolvedor React Native e React.js, e estou mergulhando de cabeça no mundo do Swift! 🦾 Tenho um grande sonho de me especializar cada vez mais no universo mobile, e este repositório é um reflexo de tudo que aprendi até aqui e de como estou me desafiando para crescer nesse caminho! 💪
 
-# Getting Started
+Importante! Este projeto foi desenvolvido com todo o meu empenho e dedicação, mesmo estando envolvido em outro projeto com o qual estou trabalhando intensamente no fechamento de sprint. Dei o meu melhor, ajustando o tempo e a carga de trabalho para garantir que este repositório tenha o meu máximo! 🏆
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+🔧 Ferramentas e Versões Utilizadas
+Para garantir que tudo funcione direitinho com o React Native 0.75, estou usando versões compatíveis com a versão do React Native para evitar qualquer tipo de conflito, como:
 
-## Step 1: Start the Metro Server
+Node.js - 18.20.8
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+Ruby - 2.7.5p203
 
-To start Metro, run the following command from the _root_ of your React Native project:
+Cocoapods - 1.16.2
 
-```bash
-# using npm
-npm start
+Gems - 3.1.6
 
-# OR using Yarn
-yarn start
-```
+💡 Tecnologias e Bibliotecas
+Esse projeto foi uma verdadeira jornada de aprendizado, e eu consegui integrar diversas ferramentas e bibliotecas incríveis, tais como:
 
-## Step 2: Start your Application
+Svg: Para gráficos e ícones escaláveis.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+Lottie: Animações dinâmicas e incríveis.
 
-### For Android
+Regex: Manipulação de strings de maneira poderosa e eficiente.
 
-```bash
-# using npm
-npm run android
+React Native Navigation: Navegação fluída e eficiente entre telas.
 
-# OR using Yarn
-yarn android
-```
+Styled Components: Para garantir um design flexível e escalável.
 
-### For iOS
+Typescript: Tipagem estática para um código mais robusto e confiável.
 
-```bash
-# using npm
-npm run ios
+Splash Screen: Tela inicial personalizada e impactante.
 
-# OR using Yarn
-yarn ios
-```
+Redux: Gerenciamento centralizado do estado da aplicação.
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+React-Native-Animated: Para criar animações incríveis de maneira simples.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+Async Storage: Armazenamento local para dados de forma persistente.
 
-## Step 3: Modifying your App
+Eslint: Garantindo que o código fique limpo e organizado.
 
-Now that you have successfully run the app, let's modify it.
+🔥 O Desafio
+Cada linha de código desse projeto é resultado de muito esforço, aprendizado e a busca constante por evolução. A jornada foi repleta de desafios, mas também de conquistas e momentos de superação. Meu objetivo com esse repositório é não apenas compartilhar o que construí, mas também me tornar uma versão melhor a cada experiência.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+Esse é apenas o começo, e eu estou mais motivado do que nunca para continuar aprendendo, crescendo e enfrentando novos desafios no mundo do desenvolvimento mobile. Se você se inspira nesse processo ou tem sugestões para melhorar o projeto, me avise! Juntos podemos chegar ainda mais longe. 🚀
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Vamos para o próximo nível! ✨
